@@ -20,12 +20,10 @@ Bundle "gmarik/vundle"
 
 " Git related...
 Bundle "tpope/vim-fugitive"
-Bundle "gregsexton/gitv"
-Bundle 'mattn/webapi-vim'
-Bundle "mattn/gist-vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
+Bundle "bling/vim-airline"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
