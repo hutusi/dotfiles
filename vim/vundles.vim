@@ -21,6 +21,10 @@ Bundle "gmarik/vundle"
 " Git related...
 Bundle "tpope/vim-fugitive"
 
+" General vim improvements
+Bundle "scrooloose/nerdtree"
+Bundle "jistr/vim-nerdtree-tabs"
+
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
 Bundle "bling/vim-airline"
