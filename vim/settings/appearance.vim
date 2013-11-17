@@ -2,7 +2,7 @@
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
 set background=dark
-let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 "let g:solarized_visibility = "high"
 "let g:solarized_contrast = "high"
 colorscheme solarized
@@ -19,7 +19,7 @@ if has("gui_running")
   set lines=60
   set columns=190
 
-  set guifont=Inconsolata\ XL:h20,Inconsolata:h20,Monaco:h20
+  set guifont=Inconsolata:h24,Monaco:h20
 else
   "dont load csapprox if we no gui support - silences an annoying warning
   let g:CSApprox_loaded = 1

@@ -10,14 +10,15 @@ endif
 
 " ================ General Config ====================
 
+set encoding=utf-8              "encoding
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
-set showcmd                     "Show incomplete cmds down the bottom
-set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set showcmd                     "Show incomplete cmds down the bottom
+set noshowmode                  "Not show current mode down the bottom
 set laststatus=2                "Show status bar always
 
 " This makes vim act like all other editors, buffers can
@@ -30,7 +31,7 @@ syntax on
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-" The mapleader has to be set before vundle starts loading all 
+" The mapleader has to be set before vundle starts loading all
 " the plugins.
 """ let mapleader=","
 
