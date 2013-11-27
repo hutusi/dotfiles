@@ -1,0 +1,4 @@
+bundle/
+!bundle/vundle
+!settings/bundle
+backups/
