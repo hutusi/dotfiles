@@ -26,6 +26,9 @@ Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "scrooloose/syntastic"
 Bundle "kien/ctrlp.vim"
+Bundle "scrooloose/nerdcommenter"
+
+" General editor improvements
 
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
