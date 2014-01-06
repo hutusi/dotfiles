@@ -15,7 +15,7 @@ set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set gcr=a:blinkon0              "Disable cursor blink
-set visualbell                  "No sounds
+set novisualbell                  "No visual bell
 set autoread                    "Reload files changed outside vim
 set showcmd                     "Show incomplete cmds down the bottom
 set showmode                  "Not show current mode down the bottom

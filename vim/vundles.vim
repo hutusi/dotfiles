@@ -29,6 +29,7 @@ Bundle "kien/ctrlp.vim"
 Bundle "scrooloose/nerdcommenter"
 
 " General editor improvements
+Bundle "junegunn/goyo.vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
