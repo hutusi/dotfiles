@@ -4,8 +4,6 @@ source ~/.dotfiles/zsh/aliases.zsh
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -50,10 +48,17 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:~/bin:/Users/john/.rvm/gems/ruby-2.0.0-p247/bin:/Users/john/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/john/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/john/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH
+# export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:~/bin:/Users/john/.rvm/gems/ruby-2.0.0-p247/bin:/Users/john/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/john/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/john/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH
 
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
 
+# Path
+export PATH="/usr/local/bin:$PATH"
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

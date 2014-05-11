@@ -44,6 +44,7 @@ Bundle "tpope/vim-rake"
 
 " markdown
 Bundle "plasticboy/vim-markdown"
+Bundle "slim-template/vim-slim"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to

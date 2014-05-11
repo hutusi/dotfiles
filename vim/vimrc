@@ -11,6 +11,7 @@ endif
 " ================ General Config ====================
 
 set encoding=utf-8              "encoding
+set fileencodings=utf-8,gb18030,utf-16,big5
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
