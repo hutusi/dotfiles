@@ -44,8 +44,8 @@ brew upgrade
 # which version I'm using.
 
 apps=(
-    vim --override-system-vi
-    macvim --override-system-vim --custom-system-icons
+    vim --with-override-system-vi
+    macvim
     ffmpeg
     gpg
     svn
