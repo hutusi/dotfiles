@@ -59,6 +59,7 @@ apps=(
     wget
     ponysay
     fortune
+    gnu-sed
 )
 
 brew install "${apps[@]}"
