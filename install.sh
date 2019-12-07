@@ -7,7 +7,7 @@ if [ ! -d "$HOME/.dotfiles" ]; then
 	## link files
 	ln -sf $HOME/.dotfiles/git/gitconfig.ext $HOME/.gitconfig.ext
 	ln -sf $HOME/.dotfiles/git/gitignore $HOME/.gitignore
-	sed -i '1s/^/[include]\n    path = ~\/.gitconfig.ext\n/' $HOME/.gitignore
+	sed -i '1s/^/[include]\n    path = ~\/.gitconfig.ext\n/' $HOME/.gitconfig
 	ln -sf $HOME/.dotfiles/tmux/tmux.conf $HOME/.tmux.conf
 	ln -sf $HOME/.dotfiles/vim $HOME/.vim
 	ln -sf $HOME/.dotfiles/vim/vimrc $HOME/.vimrc

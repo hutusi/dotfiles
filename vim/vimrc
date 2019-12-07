@@ -107,4 +107,3 @@ set sidescroll=1
 if filereadable(expand("~/.vim/settings.vim"))
   source ~/.vim/settings.vim
 endif
-

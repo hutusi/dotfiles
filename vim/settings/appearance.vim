@@ -1,11 +1,14 @@
 " Make it beautiful - colors and fonts
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
+colorscheme solarized
+
 set background=dark
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 "let g:solarized_visibility = "high"
 "let g:solarized_contrast = "high"
-colorscheme solarized
+
+"colorscheme nord
 
 if has("gui_running")
   "tell the term has 256 colors
@@ -19,9 +22,9 @@ if has("gui_running")
   set lines=60
   set columns=190
 
-  set guifont=Inconsolata:h22,Monaco:h20
+  " set guifont=Inconsolata:h22,Monaco:h20
 else
-  "dont load csapprox if we no gui support - silences an annoying warning
-  let g:CSApprox_loaded = 1
+  " dont load csapprox if we no gui support - silences an annoying warning
+  "let g:CSApprox_loaded = 1
 endif
 

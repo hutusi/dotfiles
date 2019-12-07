@@ -14,7 +14,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle (required)
-Bundle "gmarik/vundle"
+Bundle 'gmarik/vundle'
 
 " All your bundles here
 
@@ -24,27 +24,28 @@ Bundle "tpope/vim-fugitive"
 " General vim improvements
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
-Bundle "scrooloose/syntastic"
+Bundle "vim-syntastic/syntastic"
 Bundle "kien/ctrlp.vim"
 Bundle "scrooloose/nerdcommenter"
 
 " General editor improvements
-Bundle "junegunn/goyo.vim"
+"Bundle "junegunn/goyo.vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "altercation/vim-colors-solarized"
+Bundle "arcticicestudio/nord-vim"
 Bundle "bling/vim-airline"
 
 " Ruby, Rails, Rake...
 Bundle "vim-ruby/vim-ruby"
-Bundle "astashov/vim-ruby-debugger"
-Bundle "ecomba/vim-ruby-refactoring"
-Bundle "tpope/vim-rails"
-Bundle "tpope/vim-rake"
+"Bundle "astashov/vim-ruby-debugger"
+"Bundle "ecomba/vim-ruby-refactoring"
+"Bundle "tpope/vim-rails"
+"Bundle "tpope/vim-rake"
 
 " markdown
 Bundle "plasticboy/vim-markdown"
-Bundle "slim-template/vim-slim"
+"Bundle "slim-template/vim-slim"
 
 " Customization
 " The plugins listed in ~/.vim/.vundles.local will be added here to
